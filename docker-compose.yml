@@ -13,7 +13,7 @@ services:
     working_dir: /var/www
     volumes:
       - .:/var/www
-      - ./logs:/var/www/storage/logs/laravel.log
+      - ./logs:/var/www/storage/logs/
     ports: 
       - "8000:8000"
     depends_on:
